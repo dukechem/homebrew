@@ -67,6 +67,7 @@ class Smartmontools < Formula
         #{HOMEBREW_PREFIX}/sbin/smartd  -q  showtests
         #{HOMEBREW_PREFIX}/sbin/smartd  -q  onecheck
     The onecheck should create state and attrib files in #{var}/lib/smartmontools
+    ToDo: figure out if or right-way to have smartd log to ASL/ syslog /var/log whaterver.
         
     After above sanity tests look ok, then you can see if smartd runs automatically (without sudo) by:
         brew services restart smartmontools
