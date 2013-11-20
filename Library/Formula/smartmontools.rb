@@ -45,7 +45,6 @@ class Smartmontools < Formula
     <key>WatchPaths</key>
     <array>
         <string>#{HOMEBREW_PREFIX}/etc/smartd.conf</string>
-        <string>/Volumes</string>
     </array>
     </dict>
     </plist>
