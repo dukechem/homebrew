@@ -2,6 +2,9 @@ Homebrew
 ========
 Features, usage and installation instructions are [summarized on the homepage][home].
 
+I don't expect this readme.md to be used... it's just that I'm new to all this and did not know where 
+to put the reason for this fork. (I'm assuming I cannot just fork on formula, smartmontools, right?
+
 The only reason I forked this, so far, is to add a launchd plist to the smartmontools.rb formula.
 I've tested on 10.6, 10.7, 10.8, and 10.9. And "brew services restart smartmontools" starts/stops "smartd -n" ok.
 
